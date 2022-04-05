@@ -1,0 +1,1765 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Bootstrap 4 Admin &amp; Dashboard Template">
+	<meta name="author" content="Bootlab">
+
+	<title>Flowers - Admin &amp; Dashboard Template</title>
+
+	<link rel="preconnect" href="//fonts.gstatic.com/" crossorigin="">
+	<link rel="icon" type="image/x-icon" href="img/favico/favicon.ico" />
+
+	<!-- PICK ONE OF THE STYLES BELOW -->
+	<!--<link href="css/classic.css" rel="stylesheet"> -->
+	<!-- <link href="css/corporate.css" rel="stylesheet"> -->
+	<!-- <link href="css/modern.css" rel="stylesheet"> -->
+
+	<!-- BEGIN SETTINGS -->
+	<!-- You can remove this after picking a style -->
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<script src="js\settings.js"></script>
+	<!-- END SETTINGS -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-120946860-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120946860-6');
+</script></head>
+
+<body>
+	<div class="wrapper">
+		<!--sidebar-->		
+		<nav id="sidebar" class="sidebar">
+			<div class="sidebar-content ">
+				<a class="sidebar-brand" href="index.html">
+          			<i class="align-middle" data-feather="box"></i>
+          			<span class="align-middle">Flowers.ua</span>
+        		</a>
+				<ul class="sidebar-nav">
+					<li class="sidebar-item active">
+						<a href="#dashboards" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Заказы</span>
+						</a>
+						<ul id="dashboards" class="sidebar-dropdown list-unstyled collapse" data-parent="#sidebar">
+							<li class="sidebar-item">
+								<a href="#multi-2" data-toggle="collapse" class="sidebar-link" aria-expanded="true">
+		  							Управление заказами
+								</a>
+								<ul id="multi-2" class="sidebar-dropdown list-unstyled collapse">
+									<li class="sidebar-item">
+										<a class="sidebar-link" href="order-offline.html">Создание offline</a>
+										<a class="sidebar-link" href="order-online.html">Создание online</a>
+										<a class="sidebar-link" href="order-edit.html">Редактирование</a>
+									</li>
+								</ul>
+							</li>	
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-1.html">Извенительная доставка</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-e-commerce.html">Проблемные заказы</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-social.html">Скидки</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-social.html">Индивидуальный заказ</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#pages" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="layout"></i> <span class="align-middle">Каталог</span>
+						</a>
+						<ul id="pages" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-profile.html">Товары</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-settings.html">Новинки</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-clients.html">Акционный товар</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#auth" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="users"></i> <span class="align-middle">CRM</span>
+	  						<span class="sidebar-badge badge badge-secondary">12/24</span>
+						</a>
+						<ul id="auth" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-sign-in.html">Шаблоны писем</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-sign-up.html">Шаблоны SMS</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-reset-password.html">Рассылки</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-404.html">Загрузка картинок</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-500.html">Поддизайн</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-500.html">Части дизайна</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-500.html">Шаблоны дизайна</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-500.html">Шаблоны писем оплат</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-500.html">Управление рассылкой клиентов</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#layouts" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="monitor"></i> <span class="align-middle">Бухгалтерия</span>
+						</a>
+						<ul id="layouts" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="layouts-sidebar-sticky.html">Расчет с партнерами</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="layouts-sidebar-collapsed.html">Бухгалтерия регионов</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="layouts-boxed.html">Расходы партнеров</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics.html?theme=classic">Поставщики</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-2.html?theme=corporate">Плательщики</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">ЗП операторов</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">1С</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">Бух. настройки</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">Баланс клиентов</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">Заявки на оплату</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">Сверка</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#documentation" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="book-open"></i> <span class="align-middle">Склад</span>
+						</a>
+						<ul id="documentation" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-introduction.html">Группы товаров</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-installation.html">Группы для замены цветка</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-plugins.html">Наименование товара</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-changelog.html">Перечень позиций на складе</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-changelog.html">Лог операций</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-changelog.html">Заявки назакупку</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-changelog.html">Сверка по складу</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-changelog.html">Контроль наличия товара на складе</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-changelog.html">Статус склада</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#forecast" data-toggle="collapse" class="sidebar-link">
+	  						<i class="align-middle" data-feather="book-open"></i> <span class="align-middle">Закупки</span>
+						</a>
+						<ul id="forecast" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item active"><a class="sidebar-link" href="forecast.html">Прогноз</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="requests.html">Заявки</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#ui" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="grid"></i> <span class="align-middle">Пользователи</span>
+						</a>
+						<ul id="ui" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-alerts.html">Администраторы</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-buttons.html">Исполнители</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-cards.html">Партнеры</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-general.html">Поставщики</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-grid.html">График работы</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-modals.html">Черный список</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#charts" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="pie-chart"></i> <span class="align-middle">SEO</span>
+	  						<span class="sidebar-badge badge badge-primary">New</span>
+						</a>
+						<ul id="charts" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-chartjs.html">SEO статьи</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-apexcharts.html">Настройки страниц</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-apexcharts.html">Страницы</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-apexcharts.html">Отзывы</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-apexcharts.html">Обзоры</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-apexcharts.html">Фотогалерея</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#forms" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="check-square"></i> <span class="align-middle">Настройка</span>
+						</a>
+						<ul id="forms" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-layouts.html">Layouts</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-basic-elements.html">Basic Elements</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-advanced-elements.html">Advanced Elements</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-input-groups.html">Input Groups</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-editors.html">Editors</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-validation.html">Validation</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-wizard.html">Wizard</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#tables" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="list"></i> <span class="align-middle">Статистика</span>
+						</a>
+						<ul id="tables" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="tables-bootstrap.html">Bootstrap</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="tables-datatables.html">DataTables</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light bg-white">
+				<a class="sidebar-toggle d-flex mr-2">
+          			<i class="hamburger align-self-center"></i>
+        		</a>
+
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-toggle="dropdown">
+                				<i class="align-middle" data-feather="settings"></i>
+              				</a>
+
+							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-toggle="dropdown">
+                				<img src="img\avatars\avatar.jpg" class="avatar img-fluid rounded-circle mr-1" alt="Chris Wood"> <span class="text-dark">Chris Wood</span>
+              				</a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a class="dropdown-item" href="#">Sign out</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<main class="content">
+				<div class="container-fluid p-0">
+					<h1>Прогноз</h1>
+					<div class="row">
+						<div class="col-12 col-sm-6 col-xl d-flex">
+							<div class="card flex-fill">
+								<div class="card-body">
+									<form>
+										<div class="row">
+											<div class="col-12 col-xl-4">
+												<h5 class="card-title mb-0">Продажи</h5>
+												<div class="form-group">
+													<label class="form-label">Диапазон дат</label>
+													<div class="form-group">
+														<input class="form-control" type="text" name="daterange">
+													</div>
+												</div>
+												<form>
+												<div class="form-group" name="region_1">
+													<label class="form-label">Регион</label>
+													<div class="form-group">
+														<select id="i1" multiple="" class="form-control mb-3" onchange="populate(this.id,'i2')">
+															<option value="0">Все</option>
+															<option value="3">Виницкая область</option>
+															<option value="2">Днепропетровская область</option>
+															<option value="1">Киевская область</option>
+														  </select>
+													</div>
+												</div>
+												
+												</form>
+												<div class="form-group">
+													<label class="form-label">Поставщик</label>
+													<div class="form-group">
+														<select class="form-control mb-3" id="i3">
+															<option selected="" value="0">Все</option>
+															<option value="1">Петров</option>
+															<option value="2">Иванов</option>
+															<option value="3">Романов</option>
+															<option value="4">Сергеев</option>
+														  </select>
+													</div>
+												</div>
+												
+											</div>
+											<div class="col-12 col-xl-8">
+												<h5 class="card-title mb-0">_</h5>
+												<div class="col-12 col-xl-8">
+													<label class="form-label">Период резерва</label>
+													<div class="form-group">
+														<select class="form-control mb-3">
+															<option>3 дня</option>
+															<option>4 дня</option>
+															<option>5 дней</option>
+															<option>6 дней</option>
+															<option selected="">7 дней</option>
+														  </select>
+													</div>
+												</div>
+												<div class="col-12 col-xl-8">
+													<label class="form-label">Офис</label>
+													<div class="form-group">
+														<select  multiple="" class="form-control mb-3" id="i2" name="spisok">
+															
+														  </select>
+													</div>
+												</div>
+												<div class="col-12 col-xl-8">
+													<label class="form-label">Подгруппа</label>
+													<div class="form-group">
+														<select class="form-control mb-3">
+															<option selected="">Все</option>
+															<option>Цветок</option>
+															<option>Ленты</option>
+															<option>Коробки</option>
+															<option>Конфеты</option>
+														  </select>
+													</div>
+												</div>
+											</div>
+										</div>
+										<button type="button" class="btn btn-secondary" onClick="A()" id="refresh">
+											Обновить
+										</button> 
+										<hr>
+										<div class="card-body" style="margin-bottom: 10;">
+											<button type="button" id="order_button" class="btn btn-secondary float-right"  style="display:none; margin-bottom:20;" data-toggle="modal" data-target="#form_order" onclick="createOrderList()">
+												Сформировать заказ
+											</button>
+			<script>
+				function createOrderList(){
+					var getOrderItem = document.getElementById("id_table2");
+					var rowLength = getOrderItem.rows.length
+					var z = 0
+					var k = 0
+					for (; z <= rowLength-1; z++) {
+						if (z < rowLength-1){
+							var l = 0
+							k++
+							for (var y = 8; y <= 32; y+=8){
+							l++
+							var inputval1 = parseInt(document.getElementById('art'+k+'k'+l).value)
+						if (inputval1 > 0){
+							document.getElementById('zayavka'+l).style = "display: block"
+							var tbody = document.getElementById('kie'+y).getElementsByTagName("TBODY")[0];
+							var row = document.createElement("TR")
+							var td1 = document.createElement("TD")
+								td1.style = "width: 10%"
+								localStorage.setItem('td'+z*100+'val'+y, document.getElementById("id_table2").rows[k].cells[0].innerHTML)
+							var td1val = document.createElement('span')
+								td1val.innerText =localStorage.getItem('td'+z*100+'val'+y)
+								td1.appendChild(td1val)
+							var td2 = document.createElement("TD")
+								localStorage.setItem('td'+z*101+'val'+y, document.getElementById("id_table2").rows[k].cells[1].innerHTML)
+							var td2val = document.createElement('span')
+								td2val.innerText =localStorage.getItem('td'+z*101+'val'+y)
+								td2.style = "width: 200px"
+								td2.appendChild(td2val)
+							var td3 = document.createElement("TD")
+							var inp3 = document.createElement("input")
+								inp3.type = "text"
+								inp3.className = "form-control col-6"
+								inp3.id = 'mount'+k+y
+								inp3.value = parseInt(document.getElementById('art'+k+'k'+l).value)
+								td3.style = "width: 10%"
+								td3.appendChild (inp3)
+							var td4 = document.createElement("TD")
+							var inp4 = document.createElement("input")
+								inp4.type = "text"
+								inp4.className = "form-control col-6"
+								inp4.id = 'mount2'+k+y
+								localStorage.setItem('td'+z*102+'val'+y, document.getElementById("id_table2").rows[k].cells[y-6].innerHTML)
+								inp4.value = localStorage.getItem('td'+z*102+'val'+y)
+								td4.style = "width: 10%"
+								td4.appendChild (inp4)
+							var td5 = document.createElement("TD")
+							var summinp = inp3.value * inp4.value
+							var td5val = document.createElement('span')
+								td5val.innerText = summinp
+								td5.style = "width: 10%"
+								td5.appendChild(td5val)
+								
+								row.appendChild(td1);
+								row.appendChild(td2);
+								row.appendChild(td3);
+								row.appendChild(td4);
+								row.appendChild(td5);
+								tbody.appendChild(row);
+								}
+							}
+						}
+						if (z == rowLength-1){
+							var tbodyend = document.getElementById('kie8').getElementsByTagName("TBODY")[0];
+							var rowend = document.createElement("TR")
+							var td1end = document.createElement("TD")
+							var td2end = document.createElement("TD")
+							td2end.appendChild(document.createTextNode("Всего цветка:"))
+							rowend.appendChild(td1end)
+							rowend.appendChild(td2end)
+							tbodyend.appendChild(rowend)
+							var tbodyend16 = document.getElementById('kie16').getElementsByTagName("TBODY")[0];
+							var rowend16 = document.createElement("TR")
+							var td1end16 = document.createElement("TD")
+							var td2end16 = document.createElement("TD")
+							td2end16.appendChild(document.createTextNode("Всего цветка:"))
+							rowend16.appendChild(td1end16)
+							rowend16.appendChild(td2end16)
+							tbodyend16.appendChild(rowend16)
+							var tbodyend24 = document.getElementById('kie24').getElementsByTagName("TBODY")[0];
+							var rowend24 = document.createElement("TR")
+							var td1end24 = document.createElement("TD")
+							var td2end24 = document.createElement("TD")
+							td2end24.appendChild(document.createTextNode("Всего цветка:"))
+							rowend24.appendChild(td1end24)
+							rowend24.appendChild(td2end24)
+							tbodyend24.appendChild(rowend24)
+							var tbodyend32 = document.getElementById('kie32').getElementsByTagName("TBODY")[0];
+							var rowend32 = document.createElement("TR")
+							var td1end32 = document.createElement("TD")
+							var td2end32 = document.createElement("TD")
+							td2end32.appendChild(document.createTextNode("Всего цветка:"))
+							rowend32.appendChild(td1end32)
+							rowend32.appendChild(td2end32)
+							tbodyend32.appendChild(rowend32)
+							break
+						}
+					}
+					
+						
+				}	
+			</script>
+											<div class="modal" id="form_order">
+												<div class="modal-dialog modal-xl">
+													<div class="modal-content">
+
+<!-- Modal Header  add_product-->
+														<div class="modal-header">
+															<div class="form-group">
+																<label class="col-form-label">Заявка по поставщику:</label>
+																<div >
+																	<select class="form-control" disabled>
+																		<option selected="" value="0">Петров</option>
+																		<option value="1">Петров</option>
+																		<option value="2">Иванов</option>
+																		<option value="3">Романов</option>
+																		<option value="4">Сергеев</option>
+																	</select>
+																</div>
+															</div>
+															<div class="form-group">
+																<label class="col-form-label">Тип оплаты:</label>
+																<div>
+																	<label class="form-check">
+																		<input class="form-check-input" type="radio" name="inline-radios-example" value="option1">
+																		<span class="form-check-label">
+																			Предоплата    
+																		</span>																		
+																	</label>
+																	<label class="form-check">
+																		<input class="form-check-input" type="radio" name="inline-radios-example" value="option2">
+																		<span class="form-check-label">
+																			  Постоплата
+																		</span>
+																	  </label>
+																</div>	
+															</div>
+															<div class="form-group">
+																<label class="col-form-label">Реквизиты на оплату:</label>
+																<div>
+																	<select class="form-control">
+																		<option selected="" value="0"></option>
+																		<option value="2">Петров 1    </option>
+																		<option value="1">Петров 2    </option>
+																	</select>
+																</div>
+															</div>
+														</div>
+
+<!-- Modal body add_product-->
+														<div class="modal-body">
+														<div  id="zayavka1" style="display: none;">
+															<h3 class="text-center">Предварительная заявка на закупку Киев 1</h3>
+															
+															
+															<div class="form-group row justify-content-end">
+																<label class="col-form-label">Склад</label>
+																<div class="col-sm-2">
+																	<select class="form-control" disabled>
+																		<option selected="" value="0">Киев1</option>
+																  </select>
+																</div>
+															</div>
+															
+															<div class="form-group row justify-content-end">
+																<label class="col-form-label">Дата отгрузки</label>
+																<div class="col-sm-2">
+																	<input class="form-control" type="text" name="datesingle">
+																</div>
+															</div>
+															<table class="table-bordered" align="center" id="kie8">
+																<thead>
+																	<tr>
+																		<th style="width: 10%;">ID</th>
+																		<th style="width: 200px;">Артикул</th>
+																		<th style="width: 10%;">Кол-во</th>
+																		<th style="width: 10%;">Цена ед.</th>
+																		<th style="width: 10%;">Цена общ.</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<!-- <tr>
+																		<td>1234</td>
+																		<td>Роза белая 60</td>
+																		<td><input id="kie1col1" required="" class="form-control" type="number" value="5"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>500 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>2345</td>
+																		<td>Ромашка</td>
+																		<td><input id="kie1col2" required="" class="form-control" type="number" value="56"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>5600 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>3456</td>
+																		<td>Тюльпан белый</td>
+																		<td><input id="kie1col3" required="" class="form-control" type="number" value="43"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>4300 грн.</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td style="text-align: end;">Цветка всего:</td>
+																		<td>104 шт.</td>
+																		<td ><b>ИТОГО:</b></td>
+																		<td>10400 грн.</td>
+																	</tr> -->
+																</tbody>
+															</table>
+															<hr>
+															</div>
+															<div  id="zayavka2" style="display: none;">
+															<h3 class="text-center">Предварительная заявка на закупку Киев 2</h3>
+															<div class="form-group row justify-content-end">
+																<label class="col-form-label">Склад</label>
+																<div class="col-sm-2">
+																	<select class="form-control" disabled>
+																		<option selected="" value="0">Киев2</option>
+																	</select>
+																</div>
+															</div>
+															<div class="form-group row justify-content-end">
+																<label class="col-form-label">Дата отгрузки</label>
+																<div class="col-sm-2">
+																	<input class="form-control" type="text" name="datesingle">
+																</div>
+															</div>
+															<table class="table-bordered" align="center" id="kie16">
+																<thead>
+																	<tr>
+																		<th style="width: 10%;">ID</th>
+																		<th style="width: 60%;">Артикул</th>
+																		<th style="width: 10%;">Кол-во</th>
+																		<th style="width: 10%;">Цена ед.</th>
+																		<th style="width: 10%;">Цена общ.</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<!-- <tr>
+																		<td>4567</td>
+																		<td>Тюльпан желтый</td>
+																		<td><input required="" class="form-control" type="number" value="35"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>3500 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>5678</td>
+																		<td>Хризантема</td>
+																		<td><input required="" class="form-control" type="number" value="55"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>5500 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>56789</td>
+																		<td>Роза красная 70</td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>10000 грн.</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td style="text-align: end;">Цветка всего:</td>
+																		<td>190 шт.</td>
+																		<td><b>ИТОГО:</b></td>
+																		<td>19000 грн.</td>
+																	</tr> -->
+																</tbody>
+															</table>
+															<hr>
+															</div>
+															<div  id="zayavka3" style="display: none;">
+															<h3 class="text-center">Предварительная заявка на закупку Киев 3</h3>
+															<div class="form-group row justify-content-end">
+																<label class="col-form-label">Склад</label>
+																<div class="col-sm-2">
+																	<select class="form-control" disabled>
+																		<option selected="" value="0">Киев3</option>
+																  </select>
+																</div>
+															</div>
+															<div class="form-group row justify-content-end">
+																<label class="col-form-label">Дата отгрузки</label>
+																<div class="col-sm-2">
+																	<input class="form-control" type="text" name="datesingle">
+																</div>
+															</div>
+															<table class="table-bordered" align="center" id="kie24">
+																<thead>
+																	<tr>
+																		<th style="width: 10%;">ID</th>
+																		<th style="width: 60%;">Артикул</th>
+																		<th style="width: 10%;">Кол-во</th>
+																		<th style="width: 10%;">Цена ед.</th>
+																		<th style="width: 10%;">Цена общ.</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<!-- <tr>
+																		<td>1234</td>
+																		<td>Роза белая 60</td>
+																		<td><input required="" class="form-control" type="number" value="90"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>9000 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>2345</td>
+																		<td>Ромашка</td>
+																		<td><input required="" class="form-control" type="number" value="70"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>7000 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>3456</td>
+																		<td>Тюльпан белый</td>
+																		<td><input required="" class="form-control" type="number" value="65"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>6500 грн.</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td style="text-align: end;">Цветка всего:</td>
+																		<td>225 шт.</td>
+																		<td><b>ИТОГО:</b></td>
+																		<td>22500 грн.</td>
+																	</tr> -->
+																</tbody>
+															</table>
+															<hr>
+															</div>
+															<div  id="zayavka4" style="display: none;">
+															<h3 class="text-center">Предварительная заявка на закупку Киев 4</h3>
+															<div class="form-group row justify-content-end">
+																<label class="col-form-label">Склад</label>
+																<div class="col-sm-2">
+																	<select class="form-control" disabled>
+																		<option selected="" value="0">Киев4</option>
+																  </select>
+																</div>
+															</div>
+															<div class="form-group row justify-content-end">
+																<label class="col-form-label">Дата отгрузки</label>
+																<div class="col-sm-2">
+																	<input class="form-control" type="text" name="datesingle">
+																</div>
+															</div>
+															<table class="table-bordered" align="center" id="kie32">
+																<thead>
+																	<tr>
+																		<th style="width: 10%;">ID</th>
+																		<th style="width: 60%;">Артикул</th>
+																		<th style="width: 10%;">Кол-во</th>
+																		<th style="width: 10%;">Цена ед.</th>
+																		<th style="width: 10%;">Цена общ.</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<!-- <tr>
+																		<td>4567</td>
+																		<td>Тюльпан желтый</td>
+																		<td><input required="" class="form-control" type="number" value="65"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>6500 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>5678</td>
+																		<td>Хризантема</td>
+																		<td><input required="" class="form-control" type="number" value="40"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>4000 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>6789</td>
+																		<td>Роза красная 70</td>
+																		<td><input required="" class="form-control" type="number" value="35"></td>
+																		<td><input required="" class="form-control" type="number" value="100"></td>
+																		<td>3500 грн.</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td style="text-align: end;">Цветка всего:</td>
+																		<td>140 шт.</td>
+																		<td><b>ИТОГО:</b></td>
+																		<td>14000 грн.</td>
+																	</tr> -->
+																</tbody>
+															</table>
+															<hr>
+															</div>
+															<h3 class="text-center">Общяя заявка на закупку</h3>
+															<table class="table-bordered" align="center">
+																<thead>
+																	<tr>
+																		<th style="width: 10%;">ID</th>
+																		<th style="width: 60%;">Артикул</th>
+																		<th style="width: 10%;">Кол-во</th>
+																		<th style="width: 10%;">Цена ед.</th>
+																		<th style="width: 10%;">Цена общ.</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>1234</td>
+																		<td>Роза белая 60</td>
+																		<td>95 шт.</td>
+																		<td>100 грн.</td>
+																		<td>9500 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>2345</td>
+																		<td>Ромашка</td>
+																		<td>126 шт.</td>
+																		<td>100 грн.</td>
+																		<td>12600 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>3456</td>
+																		<td>Тюльпан белый</td>
+																		<td>108 шт.</td>
+																		<td>100 грн.</td>
+																		<td>10800 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>4567</td>
+																		<td>Тюльпан желтый</td>
+																		<td>100 шт.</td>
+																		<td>100 грн.</td>
+																		<td>10000 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>5678</td>
+																		<td>Хризантема</td>
+																		<td>95 шт.</td>
+																		<td>100 грн.</td>
+																		<td>9500 грн.</td>
+																	</tr>
+																	<tr>
+																		<td>6789</td>
+																		<td>Роза красная 70</td>
+																		<td>135 шт.</td>
+																		<td>100 грн.</td>
+																		<td>13500 грн.</td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																		<td style="text-align: end;">Цветка всего:</td>
+																		<td>659 шт.</td>
+																		<td><b>ИТОГО:</b></td>
+																		<td>65900 грн.</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+
+<!-- Modal footer add_product-->
+														<div class="modal-footer">
+															<button class="btn btn-primary" type="button" data-dismiss="modal" aria-expanded="false">
+																Сохранить заявку
+															</button>
+															<button class="btn btn-secondary" type="button" data-dismiss="modal" aria-expanded="false" disabled>
+																Сохранить и создать приходную накладную
+															</button>
+															<button class="btn btn-danger" type="button" data-dismiss="modal" aria-expanded="false">
+																Отмена
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+<!-- The Modal -->
+										</div>
+										<div class="col-12 col-xl-8">
+											<form class="form-inline" id="formswich" style="display:none">
+												<div class="row">
+													<div class="col-12 col-xl-2">
+														<div class="custom-control custom-switch">
+															<input type="checkbox" class="custom-control-input" id="customSwitch5" checked="checked">
+															<label class="custom-control-label" for="customSwitch5">Цена закупки   </label>
+														</div>
+													</div>
+													<div class="col-12 col-xl-2">
+														<div class="custom-control custom-switch">
+															<input type="checkbox" class="custom-control-input" id="customSwitch6" checked="checked">
+															<label class="custom-control-label" for="customSwitch6">Средняя цена закупки   </label>
+														</div>
+													</div>
+													<div class="col-12 col-xl-2">
+														<div class="custom-control custom-switch">
+															<input type="checkbox" class="custom-control-input" id="customSwitch1" checked="checked">
+															<label class="custom-control-label" for="customSwitch1">Продажи   </label>
+														</div>
+													</div>
+													<div class="col-12 col-xl-2">
+														<div class="custom-control custom-switch">
+															<input type="checkbox" class="custom-control-input" id="customSwitch2" checked="checked">
+															<label class="custom-control-label" for="customSwitch2">На складах   </label>
+														</div>
+													</div>
+													<div class="col-12 col-xl-2">
+														<div class="custom-control custom-switch">
+															<input type="checkbox" class="custom-control-input" id="customSwitch3" checked="checked">
+															<label class="custom-control-label" for="customSwitch3">Резерв   </label>
+														</div>
+													</div>
+													<div class="col-12 col-xl-2">
+														<div class="custom-control custom-switch">
+															<input type="checkbox" class="custom-control-input" id="customSwitch4" checked="checked">
+															<label class="custom-control-label" for="customSwitch4">в пути   </label>
+														</div>
+													</div>
+												</div>
+											</form>
+										</div>
+										<hr>
+										<div class="table-responsive">
+											<table class="table table-striped table-bordered" id="id_table" style="display:none; margin-bottom: 20">
+												<thead>
+													<tr>
+														<th>ID</th>
+														<th style="width:30%"">Артикул</th>
+														<th >Продажи за период</th>
+														<th >Текущие остатки на складе</th>
+														<th>Коэффициент</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>1234</td>
+														<td>Роза белая 60</td>
+														<td>104</td>
+														<td>243</td>
+														<td>2,34</td>
+													</tr>
+													<tr>
+														<td>2345</td>
+														<td>Ромашка</td>
+														<td>345</td>
+														<td>434</td>
+														<td>1,26</td>
+													</tr>
+													<tr>
+														<td>3456</td>
+														<td>Тюльпан белый</td>
+														<td>625</td>
+														<td>321</td>
+														<td>0,51</td>
+													</tr>
+													<tr>
+														<td>4567</td>
+														<td>Тюльпан желтый</td>
+														<td>104</td>
+														<td>243</td>
+														<td>2,34</td>
+													</tr>
+													<tr>
+														<td>5678</td>
+														<td>Хризантема</td>
+														<td>546</td>
+														<td>765</td>
+														<td>1,4</td>
+													</tr>
+													<tr>
+														<td>6789</td>
+														<td>Роза красная 70</td>
+														<td>104</td>
+														<td>243</td>
+														<td>2,34</td>
+													</tr>
+													<tr>
+														<td>7890</td>
+														<td>Роза белая 70</td>
+														<td>345</td>
+														<td>434</td>
+														<td>1,26</td>
+													</tr>
+													<tr>
+														<td>8901</td>
+														<td>Тюльпан розовый</td>
+														<td>625</td>
+														<td>321</td>
+														<td>0,51</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										
+										<div class="table-responsive">
+											<table class="table table-striped table-bordered table-hover table-condensed table-responsive" id="id_table2" style="display:none; margin-bottom: 0">
+												<thead>
+													<tr>
+														<th>ID</th>
+														<th class="col1">Артикул</th>
+														<th class="col2">Цена закупки</th>
+														<th class="col3">Средняя цена закупки</th>
+														<th class="col4">Продажы</th>
+														<th class="col5">На складах (Остатки)</th>
+														<th class="col6">Резерв</th>
+														<th class="col7">В пути</th>
+														<th class="col8" style="background-color: rgb(173,216,230);">Заказ Киев</th>
+														<th class="col9" >Рек. Заказ Киев</th>
+														<th class="col10">Цена закупки</th>
+														<th class="col11">Средняя цена закупки</th>
+														<th class="col12">Продажы</th>
+														<th class="col13">На складах (Остатки)</th>
+														<th class="col14">Резерв</th>
+														<th class="col15">В пути</th>
+														<th class="col16" style="background-color: rgb(173,216,230);">Заказ Киев2</th>
+														<th class="col17" >Рек. Заказ Киев2</th>
+														<th class="col18">Цена закупки</th>
+														<th class="col19">Средняя цена закупки</th>
+														<th class="col20">Продажы</th>
+														<th class="col21">На складах (Остатки)</th>
+														<th class="col22">Резерв</th>
+														<th class="col23">В пути</th>
+														<th class="col24" style="background-color: rgb(173,216,230)">Заказ Киев3</th>
+														<th class="col25" >Рек. Заказ Киев3</th>
+														<th class="col26">Цена закупки</th>
+														<th class="col27">Средняя цена закупки</th>
+														<th class="col28">Продажы</th>
+														<th class="col29">На складах (Остатки)</th>
+														<th class="col30">Резерв</th>
+														<th class="col31">В пути</th>
+														<th class="col32" style="background-color: rgb(173,216,230)">Заказ Киев4</th>
+														<th class="col33" >Рек. Заказ Киев4</th>
+														<th class="col34">Общий заказ</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>1234</td>
+														<td>Роза белая 60</td>
+														<td>100</td>
+														<td>100</td>
+														<td>20</td>
+														<td>15</td>
+														<td>5</td>
+														<td>5</td>
+														<td style="background-color: rgb(173,216,230)">
+															<input id="art1k1" required class="form-control" type="number" value="0">
+														</td>
+														<td style="color: rgb(255, 0, 0);"> 5</td>
+														<td>100</td>
+														<td>100</td>
+														<td>50</td>
+														<td>25</td>
+														<td>10</td>
+														<td>10</td>
+														<td style="background-color: rgb(173,216,230)">
+															<input id="art1k2" required class="form-control"  type="number" value="0">
+														</td>
+														<td style="color: rgb(255, 0, 0);">25</td>
+														<td>100</td>
+														<td>100</td>
+														<td>75</td>
+														<td>80</td>
+														<td>5</td>
+														<td>0</td>
+														<td style="background-color: rgb(173,216,230)">
+															<input id="art1k3" required class="form-control" type="number" value="0">
+														</td>
+														<td style="color: rgb(255, 0, 0);">0</td>
+														<td>100</td>
+														<td>100</td>
+														<td>265</td>
+														<td>120</td>
+														<td>90</td>
+														<td>45</td>
+														<td style="background-color: rgb(173,216,230)"> 
+															<input id="art1k4" required class="form-control"  type="number" value="0">
+														</td>
+														<td style="color: rgb(255, 0, 0);">100</td>
+														<td>
+															<input type="text" id="price1" required class="form-control" value="0" disabled>
+														</td>
+													</tr>
+													<tr>
+															<td>2345</td>
+															<td>Ромашка</td>
+															<td>100</td>
+															<td>345</td>
+															<td>345</td>
+															<td>546</td>
+															<td>765</td>
+															<td>45</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art2k1" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">65</td>
+															<td>100</td>
+															<td>100</td>
+															<td>625</td>
+															<td>321</td>
+															<td>134</td>
+															<td>152</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art2k2" required class="form-control" type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">123</td>
+															<td>100</td>
+															<td>100</td>
+															<td>24</td>
+															<td>423</td>
+															<td>212</td>
+															<td>16</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art2k3" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">243</td>
+															<td>100</td>
+															<td>100</td>
+															<td>23</td>
+															<td>34</td>
+															<td>543</td>
+															<td>35</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art2k4" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">43</td>
+															<td>
+																<input type="text" id="price2" required class="form-control" value="0" disabled>
+															</td>
+													</tr>
+													<tr>
+															<td>3456</td>
+															<td>Тюльпан белый</td>
+															<td>100</td>
+															<td>625</td>
+															<td>421</td>
+															<td>123</td>
+															<td>24</td>
+															<td>423</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art3k1" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">16</td>
+															<td>100</td>
+															<td>100</td>
+															<td>104</td>
+															<td>243</td>
+															<td>23</td>
+															<td>34</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art3k2" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">35</td>
+															<td>100</td>
+															<td>100</td>
+															<td>324</td>
+															<td>43</td>
+															<td>534</td>
+															<td>345</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art3k3" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">434</td>
+															<td>100</td>
+															<td>100</td>
+															<td>234</td>
+															<td>345</td>
+															<td>345</td>
+															<td>546</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art3k4" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">45</td>
+															<td>
+																<input type="text" id="price3" required class="form-control" value="0" disabled>
+															</td>
+													</tr>
+													<tr>
+															<td>4567</td>
+															<td>Тюльпан желтый</td>
+															<td>100</td>
+															<td>100</td>
+															<td>20</td>
+															<td>15</td>
+															<td>5</td>
+															<td>5</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art4k1" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">5</td>
+															<td>100</td>
+															<td>100</td>
+															<td>50</td>
+															<td>25</td>
+															<td>10</td>
+															<td>10</td>
+															<td style="background-color: rgb(173,216,230)"> 
+																<input id="art4k2" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">25</td>
+															<td>100</td>
+															<td>100</td>
+															<td>75</td>
+															<td>80</td>
+															<td>5</td>
+															<td>0</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art4k3" required class="form-control" type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">0</td>
+															<td>100</td>
+															<td>100</td>
+															<td>265</td>
+															<td>120</td>
+															<td>90</td>
+															<td>45</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art4k4" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">100</td>
+															<td>
+																<input type="text" id="price4" required class="form-control" value="0" disabled>
+															</td>
+													</tr>
+													<tr>
+															<td>5678</td>
+															<td>Хризантема</td>
+															<td>100</td>
+															<td>345</td>
+															<td>345</td>
+															<td>546</td>
+															<td>765</td>
+															<td>45</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art5k1" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">65</td>
+															<td>100</td>
+															<td>100</td>
+															<td>625</td>
+															<td>321</td>
+															<td>134</td>
+															<td>152</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art5k2" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">123</td>
+															<td>100</td>
+															<td>100</td>
+															<td>24</td>
+															<td>423</td>
+															<td>212</td>
+															<td>16</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art5k3" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">243</td>
+															<td>100</td>
+															<td>100</td>
+															<td>23</td>
+															<td>34</td>
+															<td>543</td>
+															<td>35</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art5k4" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">43</td>
+															<td>
+																<input type="text" id="price5" required class="form-control" value="0" disabled>
+															</td>
+													</tr>
+													<tr>
+															<td>6789</td>
+															<td>Роза красная 70</td>
+															<td>100</td>
+															<td>625</td>
+															<td>421</td>
+															<td>123</td>
+															<td>24</td>
+															<td>423</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art6k1" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">16</td>
+															<td>100</td>
+															<td>100</td>
+															<td>104</td>
+															<td>243</td>
+															<td>23</td>
+															<td>34</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art6k2" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">35</td>
+															<td>100</td>
+															<td>100</td>
+															<td>324</td>
+															<td>43</td>
+															<td>534</td>
+															<td>345</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art6k3" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">434</td>
+															<td>100</td>
+															<td>100</td>
+															<td>234</td>
+															<td>345</td>
+															<td>345</td>
+															<td>546</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art6k4" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">45</td>
+															<td>
+																<input type="text" id="price6" required class="form-control" value="0" disabled>
+															</td>
+													</tr>
+													<tr>
+															<td>7890</td>
+															<td>Роза белая 70</td>
+															<td>100</td>
+															<td>100</td>
+															<td>20</td>
+															<td>15</td>
+															<td>5</td>
+															<td>5</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art7k1" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">5</td>
+															<td>100</td>
+															<td>100</td>
+															<td>50</td>
+															<td>25</td>
+															<td>10</td>
+															<td>10</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art7k2" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">25</td>
+															<td>100</td>
+															<td>100</td>
+															<td>75</td>
+															<td>80</td>
+															<td>5</td>
+															<td>0</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art7k3" required class="form-control" type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">0</td>
+															<td>100</td>
+															<td>100</td>
+															<td>265</td>
+															<td>120</td>
+															<td>90</td>
+															<td>45</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art7k4" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">100</td>
+															<td>
+																<input type="text" id="price7" required class="form-control" value="0" disabled>
+															</td>
+													</tr>
+													<tr>
+															<td>8901</td>
+															<td>Тюльпан розовый</td>
+															<td>345</td>
+															<td>100</td>
+															<td>345</td>
+															<td>546</td>
+															<td>765</td>
+															<td>45</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art8k1" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">65</td>
+															<td>100</td>
+															<td>100</td>
+															<td>625</td>
+															<td>321</td>
+															<td>134</td>
+															<td>152</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art8k2" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">123</td>
+															<td>100</td>
+															<td>100</td>
+															<td>24</td>
+															<td>423</td>
+															<td>212</td>
+															<td>16</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art8k3" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">243</td>
+															<td>100</td>
+															<td>100</td>
+															<td>23</td>
+															<td>34</td>
+															<td>543</td>
+															<td>35</td>
+															<td style="background-color: rgb(173,216,230)">
+																<input id="art8k4" required class="form-control"  type="number" value="0">
+															</td>
+															<td style="color: rgb(255, 0, 0);">43</td>
+															<td>
+																<input type="text" id="price8" required class="form-control" value="0" disabled>
+															</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="row text-muted">
+						<div class="col-6 text-left">
+							<ul class="list-inline">
+								<li class="list-inline-item">
+									<a class="text-muted" href="#"></a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="#"></a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="#"></a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="#"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-6 text-right">
+							<p class="mb-0">
+								&copy; 2021 - <a href="index.html" class="text-muted">Flowers.ua</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js\app.js"></script>
+
+	<script>
+		$(function() {
+			// Bar chart
+			new Chart(document.getElementById("chartjs-dashboard-bar"), {
+				type: "bar",
+				data: {
+					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+					datasets: [{
+						label: "Last year",
+						backgroundColor: window.theme.primary,
+						borderColor: window.theme.primary,
+						hoverBackgroundColor: window.theme.primary,
+						hoverBorderColor: window.theme.primary,
+						data: [54, 67, 41, 55, 62, 45, 55, 73, 60, 76, 48, 79]
+					}, {
+						label: "This year",
+						backgroundColor: "#E8EAED",
+						borderColor: "#E8EAED",
+						hoverBackgroundColor: "#E8EAED",
+						hoverBorderColor: "#E8EAED",
+						data: [69, 66, 24, 48, 52, 51, 44, 53, 62, 79, 51, 68]
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					scales: {
+						yAxes: [{
+							gridLines: {
+								display: false
+							},
+							stacked: false,
+							ticks: {
+								stepSize: 20
+							}
+						}],
+						xAxes: [{
+							barPercentage: .75,
+							categoryPercentage: .5,
+							stacked: false,
+							gridLines: {
+								color: "transparent"
+							}
+						}]
+					}
+				}
+			});
+		});
+	</script>
+		<script>
+			$(function() {
+				// Select2
+				$(".select2").each(function() {
+					$(this)
+						.wrap("<div class=\"position-relative\"></div>")
+						.select2({
+							placeholder: "Select value",
+							dropdownParent: $(this).parent()
+						});
+				})
+				// Daterangepicker
+				$("input[name=\"daterange\"]").daterangepicker({
+					opens: "left"
+				});
+				$("input[name=\"datetimes\"]").daterangepicker({
+					timePicker: true,
+					opens: "left",
+					startDate: moment().startOf("hour"),
+					endDate: moment().startOf("hour").add(32, "hour"),
+					locale: {
+						format: "M/DD hh:mm A"
+					}
+				});
+				$("input[name=\"datesingle\"]").daterangepicker({
+					singleDatePicker: true,
+					showDropdowns: true
+				});
+				// Datetimepicker
+				$('#datetimepicker-minimum').datetimepicker();
+				$('#datetimepicker-view-mode').datetimepicker({
+					viewMode: 'years'
+				});
+				$('#datetimepicker-time').datetimepicker({
+					format: 'LT'
+				});
+				$('#datetimepicker-date').datetimepicker({
+					format: 'L'
+				});
+				var start = moment().subtract(29, "days");
+				var end = moment();
+	
+				function cb(start, end) {
+					$("#reportrange span").html(start.format("MMMM D, YYYY") + " - " + end.format("MMMM D, YYYY"));
+				}
+				$("#reportrange").daterangepicker({
+					startDate: start,
+					endDate: end,
+					ranges: {
+						"Today": [moment(), moment()],
+						"Yesterday": [moment().subtract(1, "days"), moment().subtract(1, "days")],
+						"Last 7 Days": [moment().subtract(6, "days"), moment()],
+						"Last 30 Days": [moment().subtract(29, "days"), moment()],
+						"This Month": [moment().startOf("month"), moment().endOf("month")],
+						"Last Month": [moment().subtract(1, "month").startOf("month"), moment().subtract(1, "month").endOf("month")]
+					}
+				}, cb);
+				cb(start, end);
+			});
+		</script>
+	<script>
+		$(function() {
+			$("#datetimepicker-dashboard").datetimepicker({
+				inline: true,
+				sideBySide: false,
+				format: "L"
+			});
+		});
+	</script>
+	<script>
+		$(function() {
+			// Line chart
+			new Chart(document.getElementById("chartjs-dashboard-line"), {
+				type: "line",
+				data: {
+					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+					datasets: [{
+						label: "Sales ($)",
+						fill: true,
+						backgroundColor: "transparent",
+						borderColor: window.theme.primary,
+						data: [2015, 1465, 1487, 1796, 1387, 2123, 2866, 2548, 3902, 4938, 3917, 4927]
+					}, {
+						label: "Orders",
+						fill: true,
+						backgroundColor: "transparent",
+						borderColor: window.theme.tertiary,
+						borderDash: [4, 4],
+						data: [928, 734, 626, 893, 921, 1202, 1396, 1232, 1524, 2102, 1506, 1887]
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					tooltips: {
+						intersect: false
+					},
+					hover: {
+						intersect: true
+					},
+					plugins: {
+						filler: {
+							propagate: false
+						}
+					},
+					scales: {
+						xAxes: [{
+							reverse: true,
+							gridLines: {
+								color: "rgba(0,0,0,0.05)"
+							}
+						}],
+						yAxes: [{
+							ticks: {
+								stepSize: 500
+							},
+							display: true,
+							borderDash: [5, 5],
+							gridLines: {
+								color: "rgba(0,0,0,0)",
+								fontColor: "#fff"
+							}
+						}]
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		$(function() {
+			// Pie chart
+			new Chart(document.getElementById("chartjs-dashboard-pie"), {
+				type: "pie",
+				data: {
+					labels: ["Direct", "Affiliate", "E-mail", "Other"],
+					datasets: [{
+						data: [2602, 1253, 541, 1465],
+						backgroundColor: [
+							window.theme.primary,
+							window.theme.warning,
+							window.theme.danger,
+							"#E8EAED"
+						],
+						borderColor: "transparent"
+					}]
+				},
+				options: {
+					responsive: !window.MSInputMethodContext,
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		$(function() {
+			$("#datatables-dashboard-projects").DataTable({
+				pageLength: 6,
+				lengthChange: false,
+				bFilter: false,
+				autoWidth: false
+			});
+		});
+	</script>
+	
+	
+	<script>
+		var a=0;
+			function A() {
+				if (a==0 && $("#i1 :selected").val()=="0") {
+				document.all.id_table.style.display="block";  // Показать таблицу 1
+				document.all.id_table2.style.display="none";  //Скрываем таблицу 2
+				document.all.order_button.style.display="none";  //Скрываем кнопку заказа
+				document.all.formswich.style.display="none";
+				a=1
+			}
+			else if (a==0 && $("#i1 :selected").val()>="1"&&$("#i1 :selected").val()<="3"){
+				document.all.id_table.style.display="none";  // скрываем таблицу 1
+				document.all.id_table2.style.display="block";  //показать таблицу 2
+				document.all.order_button.style.display="inline-block";  //показатькнопку заказа
+				document.all.formswich.style.display="block";
+				a=1
+			}
+			 else {
+				
+			a=0
+			}
+		}
+	</script>
+	<script>
+		$(document).ready(function() {
+  $('#i1').change(function() {
+    if ($("#i1 :selected").val()!="0") {
+      $("#i2").attr("disabled", false);
+    } else {
+       $("#i2").attr("disabled", true);
+    }
+  });
+ 
+});
+	</script>
+	<script>
+		$(document).ready(function() {
+  $('#refresh').click(function() {
+    if ($("#i3 :selected").val()!="0") {
+      $("#order_button").attr("disabled", false);
+    } else {
+       $("#order_button").attr("disabled", true);
+    }
+  });
+ 
+});
+	</script>
+	<script>
+		$(function() {
+		 $('#id_table2').keyup(function(){
+			 var art1k1 = parseInt(document.getElementById("art1k1").value);
+			 var art1k2 = parseInt(document.getElementById("art1k2").value);
+			 var art1k3 = parseInt(document.getElementById("art1k3").value);
+			 var art1k4 = parseInt(document.getElementById("art1k4").value);
+			 var art2k1 = parseInt(document.getElementById("art2k1").value);
+			 var art2k2 = parseInt(document.getElementById("art2k2").value);
+			 var art2k3 = parseInt(document.getElementById("art2k3").value);
+			 var art2k4 = parseInt(document.getElementById("art2k4").value);
+			 var art3k1 = parseInt(document.getElementById("art3k1").value);
+			 var art3k2 = parseInt(document.getElementById("art3k2").value);
+			 var art3k3 = parseInt(document.getElementById("art3k3").value);
+			 var art3k4 = parseInt(document.getElementById("art3k4").value);
+			 var art4k1 = parseInt(document.getElementById("art4k1").value);
+			 var art4k2 = parseInt(document.getElementById("art4k2").value);
+			 var art4k3 = parseInt(document.getElementById("art4k3").value);
+			 var art4k4 = parseInt(document.getElementById("art4k4").value);
+			 var art5k1 = parseInt(document.getElementById("art5k1").value);
+			 var art5k2 = parseInt(document.getElementById("art5k2").value);
+			 var art5k3 = parseInt(document.getElementById("art5k3").value);
+			 var art5k4 = parseInt(document.getElementById("art5k4").value);
+			 var art6k1 = parseInt(document.getElementById("art6k1").value);
+			 var art6k2 = parseInt(document.getElementById("art6k2").value);
+			 var art6k3 = parseInt(document.getElementById("art6k3").value);
+			 var art6k4 = parseInt(document.getElementById("art6k4").value);
+			 var art7k1 = parseInt(document.getElementById("art7k1").value);
+			 var art7k2 = parseInt(document.getElementById("art7k2").value);
+			 var art7k3 = parseInt(document.getElementById("art7k3").value);
+			 var art7k4 = parseInt(document.getElementById("art7k4").value);
+			 var art8k1 = parseInt(document.getElementById("art8k1").value);
+			 var art8k2 = parseInt(document.getElementById("art8k2").value);
+			 var art8k3 = parseInt(document.getElementById("art8k3").value);
+			 var art8k4 = parseInt(document.getElementById("art8k4").value);
+			 document.getElementById("price1").value = art1k1 + art1k2 + art1k3 + art1k4;
+			 document.getElementById("price2").value = art2k1 + art2k2 + art2k3 + art2k4;
+			 document.getElementById("price3").value = art3k1 + art3k2 + art3k3 + art3k4;
+			 document.getElementById("price4").value = art4k1 + art4k2 + art4k3 + art4k4;
+			 document.getElementById("price5").value = art5k1 + art5k2 + art5k3 + art5k4;
+			 document.getElementById("price6").value = art6k1 + art6k2 + art6k3 + art6k4;
+			 document.getElementById("price7").value = art7k1 + art7k2 + art7k3 + art7k4;
+			 document.getElementById("price8").value = art8k1 + art8k2 + art8k3 + art8k4;
+		 });
+		 
+		});
+		</script>
+	
+		<script>
+			$(document).ready(function() {
+				$('#customSwitch1').change(function(){
+					$('td:eq(4)','table tr').toggle();
+					$('th:eq(4)','table tr').toggle();
+					$('td:eq(12)','table tr').toggle();
+					$('th:eq(12)','table tr').toggle();
+					$('td:eq(20)','table tr').toggle();
+					$('th:eq(20)','table tr').toggle();
+					$('td:eq(28)','table tr').toggle();
+					$('th:eq(28)','table tr').toggle();
+				})
+				$('#customSwitch2').change(function(){
+					$('td:eq(5)','table tr').toggle();
+					$('th:eq(5)','table tr').toggle();
+					$('td:eq(13)','table tr').toggle();
+					$('th:eq(13)','table tr').toggle();
+					$('td:eq(21)','table tr').toggle();
+					$('th:eq(21)','table tr').toggle();
+					$('td:eq(29)','table tr').toggle();
+					$('th:eq(29)','table tr').toggle();
+				})
+				$('#customSwitch3').change(function(){
+					$('td:eq(6)','table tr').toggle();
+					$('th:eq(6)','table tr').toggle();
+					$('td:eq(14)','table tr').toggle();
+					$('th:eq(14)','table tr').toggle();
+					$('td:eq(22)','table tr').toggle();
+					$('th:eq(22)','table tr').toggle();
+					$('td:eq(30)','table tr').toggle();
+					$('th:eq(30)','table tr').toggle();
+				})
+				$('#customSwitch4').change(function(){
+					$('td:eq(7)','table tr').toggle();
+					$('th:eq(7)','table tr').toggle();
+					$('td:eq(15)','table tr').toggle();
+					$('th:eq(15)','table tr').toggle();
+					$('td:eq(23)','table tr').toggle();
+					$('th:eq(23)','table tr').toggle();
+					$('td:eq(31)','table tr').toggle();
+					$('th:eq(31)','table tr').toggle();
+				})
+				$('#customSwitch5').change(function(){
+					$('td:eq(2)','table tr').toggle();
+					$('th:eq(2)','table tr').toggle();
+					$('td:eq(10)','table tr').toggle();
+					$('th:eq(10)','table tr').toggle();
+					$('td:eq(18)','table tr').toggle();
+					$('th:eq(18)','table tr').toggle();
+					$('td:eq(26)','table tr').toggle();
+					$('th:eq(26)','table tr').toggle();
+				})
+				$('#customSwitch6').change(function(){
+					$('td:eq(3)','table tr').toggle();
+					$('th:eq(3)','table tr').toggle();
+					$('td:eq(11)','table tr').toggle();
+					$('th:eq(11)','table tr').toggle();
+					$('td:eq(19)','table tr').toggle();
+					$('th:eq(19)','table tr').toggle();
+					$('td:eq(27)','table tr').toggle();
+					$('th:eq(27)','table tr').toggle();
+				})
+			})
+		</script>
+		<script>
+			function populate(i1,i2){
+			   var i1 = document.getElementById(i1);
+			   var i2 = document.getElementById(i2);
+			   i2.innerHTML = "";
+			   if(i1.value == "1"){
+				  var optionArray = ["vse|Все","kyiv1|Киев 1","kyiv2|Киев 2","kyiv3|Киев 3","kyiv4|Киев 4"];
+			   } else if(i1.value == "2"){
+				  var optionArray = ["vse|Все","dnepr1|Днепр 2","dnepr2|Днепр 1","dnepr3|Днепр 3"];
+			   } else if(i1.value == "3"){
+				  var optionArray = ["vse|Все","vinica1|Виница 1", "vinica2|Виница 2", "vinica3|Виница 3"];
+			   } else if(i1.value == "0"){
+				  var optionArray = ["vse|Все"];
+			   }
+			   for(var option in optionArray){
+				  var pair = optionArray[option].split("|");
+				  var newOption = document.createElement("option");
+				  newOption.value = pair[0];
+				  newOption.innerHTML = pair[1];
+				  i2.options.add(newOption);
+			   }
+			}
+			</script>
+
+		
+</body>
+
+</html>
