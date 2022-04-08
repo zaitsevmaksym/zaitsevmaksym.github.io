@@ -1,2 +1,1 @@
-## zaitsevmaksym.github.io
-Слава Україні!
+# Mongoll.github.io

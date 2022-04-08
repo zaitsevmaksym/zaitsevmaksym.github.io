@@ -1,0 +1,518 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Bootstrap 4 Admin &amp; Dashboard Template">
+	<meta name="author" content="Bootlab">
+
+	<title>Flowers - Admin &amp; Dashboard Template</title>
+
+	<link rel="preconnect" href="//fonts.gstatic.com/" crossorigin="">
+	<link rel="icon" type="image/x-icon" href="img/favico/favicon.ico" />
+	<link href="css/classic.css" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-120946860-6"></script>
+<script>
+  	window.dataLayer = window.dataLayer || [];
+ 	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+  	gtag('config', 'UA-120946860-6');
+</script>
+</head>
+
+<body>
+	<div class="wrapper">
+
+<!--sidebar-->		
+		<nav id="sidebar" class="sidebar">
+			<div class="sidebar-content ">
+				<a class="sidebar-brand" href="index.html">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 829 264" style="height: 60px; width:180px">
+						<path fill="currentColor" d="M46.95 115.357v20.637a3.175 3.175 0 0 0 1.853 3.175l9.789 4.498v4.498q-10.054-.265-18.256-.265t-17.462.265v-4.498l8.466-3.969a3.44 3.44 0 0 0 1.852-3.175V12.171a3.704 3.704 0 0 0-1.587-3.704l-8.731-3.97V0q8.995.53 17.197.53H57.27Q72.88.53 90.342 0l.264.794-3.969 32.808-2.91.529-4.233-24.342H46.95v60.325h23.02a2.646 2.646 0 0 0 2.117-2.91l2.91-14.288h3.44v43.391H75.26L72.086 82.02a2.91 2.91 0 0 0-2.117-2.91H46.95v36.511zm78.316-69.055v93.396h34.131l8.996-24.076 3.175-.53-1.588 32.28-.529.793q-17.991-.265-33.602-.265h-17.197q-8.467 0-17.463.265l-.264-3.969 8.73-3.44a2.91 2.91 0 0 0 1.853-2.645V31.75a3.175 3.175 0 0 0-1.852-3.175l-8.731-3.44v-3.969q9.26.265 17.462.265t17.462-.265l.265 3.97-8.731 3.174a2.91 2.91 0 0 0-1.852 2.91v9.26q0 6.086-.265 5.822zm141.815 34.13q0 30.692-13.758 49.212a44.979 44.979 0 0 1-38.629 18.52 42.597 42.597 0 0 1-36.247-17.197q-12.7-17.198-12.7-46.566 0-30.427 13.758-48.154a45.772 45.772 0 0 1 38.364-17.726 43.127 43.127 0 0 1 36.248 16.668q12.964 16.669 12.964 45.243zm-86.253 1.059q0 29.104 9.525 44.45a29.633 29.633 0 0 0 26.987 15.345 28.045 28.045 0 0 0 25.929-13.758q8.466-14.023 8.466-43.656 0-28.046-8.995-42.862a29.633 29.633 0 0 0-27.517-14.817 28.045 28.045 0 0 0-25.928 13.759q-8.467 13.493-8.467 41.539zm176.475 66.674L332.697 50.27l-25.664 97.101-7.144.794-27.78-112.976a25.4 25.4 0 0 0-2.382-6.614 7.937 7.937 0 0 0-3.969-3.44l-6.35-2.381v-3.969q6.88.265 16.14.265 8.466 0 19.314-.265l-.265 3.704-6.614 2.646a3.704 3.704 0 0 0-2.117 1.323 5.027 5.027 0 0 0-.794 2.646 23.283 23.283 0 0 0 .794 5.027l2.117 7.937 18.785 79.11L332.961 19.05l6.086-.794 25.135 103.715 19.843-79.903q1.323-5.291 1.852-8.466a23.812 23.812 0 0 0 .794-4.763 3.704 3.704 0 0 0-.794-2.381 4.498 4.498 0 0 0-1.852-1.323l-6.614-2.381V18.52q7.408.529 15.346.529h13.758s2.116 13.758 1.058 8.996c-1.058-4.763-6.879-2.382-6.879-2.382a7.144 7.144 0 0 0-3.44 2.646 21.166 21.166 0 0 0-2.38 6.085L364.446 147.37zm57.15-129.644h17.197q15.61 0 33.072-.265l.265.53-3.969 28.838-2.91.53-4.233-21.431h-32.28v51.064h22.49a2.646 2.646 0 0 0 2.381-2.382l2.381-12.435h3.97v38.1l-3.97.264-2.38-12.7a2.646 2.646 0 0 0-2.117-2.38h-22.754v53.973h33.601l8.467-24.076 3.175-.794-1.323 32.279-.53.529q-18.255-.265-33.6-.265h-16.67q-8.466 0-17.197.265l-.265-3.969 8.467-3.44a2.91 2.91 0 0 0 1.852-2.91V28.84a3.175 3.175 0 0 0-1.587-3.175l-8.732-3.44V19.05c5.821.264 11.642-.53 17.198-.53zm76.992 101.334v17.727a3.44 3.44 0 0 0 1.852 3.704l7.673 3.175v3.704q-8.202-.265-16.669-.265-8.466 0-16.933.53l-.264-3.97 8.73-3.703a2.91 2.91 0 0 0 1.853-2.91V29.632a3.175 3.175 0 0 0-1.852-3.175l-8.467-3.704v-3.969q8.996.53 17.727.53h4.233l6.35-.53 6.35-.264h3.969a33.337 33.337 0 0 1 24.341 7.937 31.22 31.22 0 0 1 7.938 23.283 40.48 40.48 0 0 1-5.821 21.96 35.19 35.19 0 0 1-16.669 13.23q4.234 8.73 8.202 16.932 3.969 8.202 6.88 15.346 3.174 6.879 5.82 12.17a56.885 56.885 0 0 0 5.027 8.203 23.812 23.812 0 0 0 2.381 2.645 12.435 12.435 0 0 0 2.382 1.853 19.843 19.843 0 0 0 2.91 1.322l3.175 1.059v4.233a53.71 53.71 0 0 1-8.467.794h-5.027a17.462 17.462 0 0 1-3.968-.794 13.494 13.494 0 0 1-2.91-1.323 15.081 15.081 0 0 1-2.911-2.381 32.808 32.808 0 0 1-5.556-8.202q-2.91-5.556-5.821-12.435-2.91-6.88-6.085-14.552-3.175-7.673-6.88-15.081-1.058-2.117-1.852-3.44a7.408 7.408 0 0 0-1.587-2.116 5.027 5.027 0 0 0-2.117-1.059 17.198 17.198 0 0 0-2.91-.264h-5.027zm0-39.158q4.233.264 7.937.264a21.696 21.696 0 0 0 17.727-6.614 33.072 33.072 0 0 0 5.556-21.431 31.75 31.75 0 0 0-5.291-20.373 20.637 20.637 0 0 0-16.933-6.614h-4.234l-4.762.529zm109.271-52.122a34.66 34.66 0 0 0-13.493-3.175 19.579 19.579 0 0 0-14.817 5.82 22.225 22.225 0 0 0-5.291 15.875 25.135 25.135 0 0 0 1.852 10.054 25.664 25.664 0 0 0 5.027 7.673 40.745 40.745 0 0 0 7.408 6.086q4.233 2.645 8.467 4.762 4.233 2.116 9.525 5.82a43.656 43.656 0 0 1 8.201 6.88 30.956 30.956 0 0 1 5.821 10.054 36.247 36.247 0 0 1 2.381 13.229 34.13 34.13 0 0 1-10.847 26.987 41.54 41.54 0 0 1-28.31 9.525 73.818 73.818 0 0 1-24.606-5.027l-.53-.794 3.44-30.427 3.175-.529 5.027 25.4a33.337 33.337 0 0 0 15.081 3.704 21.96 21.96 0 0 0 16.14-5.82 23.018 23.018 0 0 0 6.35-16.67 25.135 25.135 0 0 0-1.853-9.789 23.548 23.548 0 0 0-5.027-7.408 42.597 42.597 0 0 0-7.143-5.82q-3.969-2.647-8.467-4.763-4.498-2.117-9.525-6.085a45.772 45.772 0 0 1-8.73-7.409 31.22 31.22 0 0 1-5.822-10.318 40.48 40.48 0 0 1-2.38-14.288 30.956 30.956 0 0 1 10.582-24.87 39.422 39.422 0 0 1 26.458-8.996 87.84 87.84 0 0 1 23.019 3.44l.529.529-4.233 28.045-2.646.53zm26.194 99.482a7.408 7.408 0 0 1 6.085 2.91 10.848 10.848 0 0 1 2.381 7.144 11.112 11.112 0 0 1-2.38 7.408 7.408 7.408 0 0 1-6.086 2.646 7.673 7.673 0 0 1-6.086-2.646 11.112 11.112 0 0 1-2.38-7.408 10.848 10.848 0 0 1 2.38-7.144 7.673 7.673 0 0 1 6.086-2.91zm12.435-109.801q8.996.53 17.462.53 8.467 0 17.198-.53l.265 3.969-8.467 3.44a2.91 2.91 0 0 0-1.852 2.645v64.558q0 25.928 6.35 35.983a26.193 26.193 0 0 0 41.274-.265q6.35-10.319 6.35-34.66V28.31a2.91 2.91 0 0 0-1.852-2.646l-8.202-3.175v-4.233q8.996.53 15.346.53t14.816-.53l-.264 3.969-8.731 3.44a3.175 3.175 0 0 0-1.588 3.174v61.383q0 29.633-9.525 43.656a32.808 32.808 0 0 1-29.633 14.287q-19.579 0-29.103-12.7-9.525-12.7-9.26-39.687V28.839a3.175 3.175 0 0 0-1.588-2.91l-8.731-3.704zm136.788 0 30.956 111.653a35.454 35.454 0 0 0 3.175 8.466 8.731 8.731 0 0 0 4.233 3.44l6.615 2.646v3.704q-9.26-.265-16.934-.265-7.672 0-19.05.265l-.264-3.704 6.615-2.646a5.027 5.027 0 0 0 2.116-1.588 3.969 3.969 0 0 0 .53-2.38 20.902 20.902 0 0 0-.794-4.763q-.53-3.175-1.852-7.938l-6.615-24.606h-33.866l-6.88 24.606-2.38 8.202a18.785 18.785 0 0 0-.794 4.763 3.44 3.44 0 0 0 .529 2.381 5.027 5.027 0 0 0 2.117 1.323l6.35 2.646v3.968q-9.79-.264-16.14-.264-6.35 0-14.023.264l-.529-3.968 7.144-2.91a7.673 7.673 0 0 0 3.969-3.44 42.068 42.068 0 0 0 2.91-7.144l35.454-111.124zm-22.225 74.082h28.84l-13.759-50.27zM359.948 195.79h2.117a57.943 57.943 0 0 0 4.498-11.112 62.705 62.705 0 0 0 2.646-12.7h14.287v24.077h3.44v11.377h-4.234v-7.673h-18.52v7.673h-4.233zm12.965-19.579a53.445 53.445 0 0 1-2.117 9.79 59.266 59.266 0 0 1-3.968 9.79h12.17v-19.58zm43.391 9.79a15.346 15.346 0 0 1-3.175 10.318 14.287 14.287 0 0 1-19.314 0 15.346 15.346 0 0 1-3.44-10.583 15.081 15.081 0 0 1 2.91-10.318 12.435 12.435 0 0 1 9.79-3.705 12.17 12.17 0 0 1 10.054 3.705A15.346 15.346 0 0 1 416.304 186zm-21.43 0a12.435 12.435 0 0 0 2.116 7.673 8.467 8.467 0 0 0 12.435 0 15.875 15.875 0 0 0 0-15.61 7.144 7.144 0 0 0-6.35-2.646 7.408 7.408 0 0 0-6.085 2.645 12.435 12.435 0 0 0-2.117 7.938zm39.157-10.583a7.408 7.408 0 0 0-6.085 2.645 14.816 14.816 0 0 0 0 15.61 7.673 7.673 0 0 0 6.085 2.646 16.669 16.669 0 0 0 3.44-.529c1.058 0 2.38-.529 3.44-.793v3.968a20.902 20.902 0 0 1-7.41 1.059 11.906 11.906 0 0 1-9.26-3.705 15.61 15.61 0 0 1-3.174-10.583 17.198 17.198 0 0 1 1.587-7.673 11.377 11.377 0 0 1 4.498-4.762 14.023 14.023 0 0 1 7.144-1.852 17.462 17.462 0 0 1 7.937 1.852l-1.852 3.704a24.606 24.606 0 0 0-2.91-1.058 10.583 10.583 0 0 0-3.44-.53zm22.49 24.34h-4.499v-23.811h-8.202v-3.969h20.902v3.969h-8.202zm29.632 0-2.646-7.672h-10.583l-2.646 7.673h-5.027l10.32-27.781h5.026l10.319 27.78zm-3.968-11.64-2.382-7.673q-.529-.794-.793-2.646c-.53-1.059-.53-1.852-.794-2.381a42.333 42.333 0 0 1-1.588 5.027l-2.38 7.143h7.937zm12.7-16.14h8.201a15.61 15.61 0 0 1 8.202 1.587 5.82 5.82 0 0 1 2.646 5.292 6.35 6.35 0 0 1-1.323 4.233 5.556 5.556 0 0 1-3.44 1.852 7.144 7.144 0 0 1 4.234 2.382 6.614 6.614 0 0 1 1.323 4.233 7.144 7.144 0 0 1-2.646 5.82 11.377 11.377 0 0 1-7.144 2.117h-10.054zm4.497 11.641h4.498a7.408 7.408 0 0 0 3.969-1.058 3.44 3.44 0 0 0 1.323-2.91 3.175 3.175 0 0 0-1.323-2.91 8.731 8.731 0 0 0-4.498-.794h-3.969zm0 3.705v8.73h5.027a7.144 7.144 0 0 0 4.234-1.058 3.969 3.969 0 0 0 1.322-3.44 3.704 3.704 0 0 0-1.322-3.174 7.937 7.937 0 0 0-4.498-1.058zm42.068 12.435h-4.497v-23.812h-7.938q-1.587 12.17-2.38 16.668a12.7 12.7 0 0 1-2.647 6.086 5.556 5.556 0 0 1-4.233 1.587 7.408 7.408 0 0 1-2.646-.53v-3.703a5.292 5.292 0 0 0 2.117.529 2.381 2.381 0 0 0 2.116-1.587 34.66 34.66 0 0 0 1.588-7.409q1.058-5.556 2.381-15.61h16.14v28.046zm16.14-11.112-6.88 11.112h-5.29l7.937-12.17a7.408 7.408 0 0 1-5.292-7.674 6.88 6.88 0 0 1 2.646-5.82 12.7 12.7 0 0 1 7.673-2.117h8.466v27.78h-4.498v-11.111zm4.762-12.965h-3.704a7.937 7.937 0 0 0-4.498 1.059 3.704 3.704 0 0 0-1.323 3.439 4.233 4.233 0 0 0 1.323 3.44 7.144 7.144 0 0 0 4.763 1.322h3.44zm27.517 24.077h-15.61v-27.781h15.61v3.969h-11.113v7.408h10.319v3.969h-10.319v8.73h11.113zm17.991 0-7.937-23.283q.264 5.027.264 10.054v13.493h-4.233v-28.045h6.35l7.673 22.225 7.937-22.225h6.35v27.78h-4.233v-23.282l-8.467 23.283h-3.969zm52.651-19.314a8.202 8.202 0 0 1-2.91 6.614 12.7 12.7 0 0 1-8.202 2.381h-2.91v10.319h-4.498v-27.781h8.202a12.17 12.17 0 0 1 7.673 2.117 7.673 7.673 0 0 1 2.645 6.35zm-14.022 4.762h2.646a8.731 8.731 0 0 0 4.762-1.058 4.498 4.498 0 0 0 1.587-3.969 4.233 4.233 0 0 0-1.322-3.44 7.144 7.144 0 0 0-4.763-1.322h-2.91v10.054zm36.776 14.552-2.645-7.673h-10.584l-2.91 7.673h-4.762l10.318-27.781h5.027l10.319 27.78H683zm-3.968-11.642-2.646-7.672q-.265-.794-.794-2.646c-.264-1.059-.529-1.852-.529-2.381a42.333 42.333 0 0 1-1.588 5.027l-2.38 7.143h7.937zm8.995 7.673h2.382a57.678 57.678 0 0 0 4.497-11.112 62.97 62.97 0 0 0 2.382-12.7h14.552v24.077h3.44v11.377h-4.234v-7.673h-18.52v7.673h-4.234V195.79zm13.23-19.579a53.71 53.71 0 0 1-2.117 9.79 59.001 59.001 0 0 1-3.969 9.79h11.906v-19.58zm43.126 9.79a15.346 15.346 0 0 1-3.175 10.318 14.287 14.287 0 0 1-19.314 0 15.346 15.346 0 0 1-3.44-10.583 15.081 15.081 0 0 1 3.44-10.583 12.435 12.435 0 0 1 9.79-3.704 12.435 12.435 0 0 1 9.524 3.969A15.346 15.346 0 0 1 744.648 186zm-21.166 0a12.435 12.435 0 0 0 2.116 7.673 8.467 8.467 0 0 0 12.435 0 15.875 15.875 0 0 0 0-15.61 7.144 7.144 0 0 0-6.35-2.646 7.408 7.408 0 0 0-6.085 2.645 12.435 12.435 0 0 0-2.116 7.938zm39.157-10.583a7.408 7.408 0 0 0-6.085 2.645 14.816 14.816 0 0 0 0 15.61 7.673 7.673 0 0 0 6.085 2.646 16.669 16.669 0 0 0 3.44-.529c1.058 0 2.381-.529 3.44-.793v3.968a20.902 20.902 0 0 1-7.409 1.059 11.906 11.906 0 0 1-9.26-3.705 15.61 15.61 0 0 1-3.44-10.583 17.198 17.198 0 0 1 1.588-7.673 11.377 11.377 0 0 1 4.762-4.762 14.023 14.023 0 0 1 6.88-1.852 17.462 17.462 0 0 1 7.937 1.852l-1.588 3.704a24.606 24.606 0 0 0-2.91-1.058 10.583 10.583 0 0 0-3.44-.53zm22.49 24.34h-4.498v-23.811h-8.202v-3.969h20.902v3.969h-8.202zm31.75-8.201a7.408 7.408 0 0 1-2.647 6.085 12.7 12.7 0 0 1-7.937 2.117h-8.731v-27.781h4.498v11.377h3.968a13.229 13.229 0 0 1 8.202 2.117 7.144 7.144 0 0 1 2.646 6.085zm-14.817 4.498h3.968a8.731 8.731 0 0 0 5.028-1.059 3.969 3.969 0 0 0 1.587-3.44 3.704 3.704 0 0 0-1.587-3.439 9.79 9.79 0 0 0-5.292-1.058h-3.44v8.996zm-373.058 43.39a14.816 14.816 0 1 1-14.816-14.816 14.816 14.816 0 0 1 14.816 14.817zM387.73 227.01c-28.046.793-195.26 6.085-254.262 3.44A956.192 956.192 0 0 1 5.147 211.928c-5.556-1.059-7.144 4.762-2.117 6.35 21.167 6.085 87.312 22.753 130.438 26.722 59.266 5.82 224.1 5.556 256.643 5.556a5.027 5.027 0 0 0 5.027-6.085l-2.646-13.758a5.027 5.027 0 0 0-4.762-3.704zm54.238 22.489c28.046-1.058 195.26-6.085 254.262-3.44a956.192 956.192 0 0 1 128.586 18.256c5.291 1.323 6.614-4.762 1.587-6.085-21.166-6.35-87.047-22.754-130.173-26.987-59.266-5.82-224.364-5.556-256.907-5.292a5.027 5.027 0 0 0-4.498 5.821l2.381 13.758a5.027 5.027 0 0 0 4.762 3.969z" fill="#fff"/>
+					  </svg>
+        		</a>
+				<ul class="sidebar-nav">
+					<li class="sidebar-item">
+						<a href="#dashboards" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="book-open"></i> <span class="align-middle">Заказы</span>
+						</a>
+						<ul id="dashboards" class="sidebar-dropdown list-unstyled collapse" data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="orders.html">Управление заказами</a></li>	
+							<li class="sidebar-item"><a class="sidebar-link" href="excuse_delivery_list.html">Извинительные доставки</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="problem-order.html">Проблемные заказы</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="photo-report.html">Фотоотчет</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-social.html">Скидки</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-social.html">Индивидуальный заказ</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#pages" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="layout"></i> <span class="align-middle">Каталог</span>
+						</a>
+						<ul id="pages" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-profile.html">Товары</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-settings.html">Новинки</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-clients.html">Акционный товар</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="price-form.html">Цена на компоненты</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#auth" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="users"></i> <span class="align-middle">CRM</span>
+	  						<span class="sidebar-badge badge badge-secondary">12/24</span>
+						</a>
+						<ul id="auth" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-sign-in.html">Шаблоны писем</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-sign-up.html">Шаблоны SMS</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-reset-password.html">Рассылки</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-404.html">Загрузка картинок</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-500.html">Поддизайн</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-500.html">Части дизайна</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-500.html">Шаблоны дизайна</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-500.html">Шаблоны писем оплат</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="pages-500.html">Управление рассылкой клиентов</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#layouts" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="monitor"></i> <span class="align-middle">Бухгалтерия</span>
+						</a>
+						<ul id="layouts" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="layouts-sidebar-sticky.html">Расчет с партнерами</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="layouts-sidebar-collapsed.html">Бухгалтерия регионов</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="layouts-boxed.html">Расходы партнеров</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics.html?theme=classic">Поставщики</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-2.html?theme=corporate">Плательщики</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">ЗП операторов</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">1С</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">Бух. настройки</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">Баланс клиентов</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="fop-control.html">Контроль баланса ФОП</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">Заявки на оплату</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="dashboard-analytics-3.html?theme=modern">Сверка</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#documentation" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="book-open"></i> <span class="align-middle">Склад</span>
+						</a>
+						<ul id="documentation" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-introduction.html">Группы товаров</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-installation.html">Группы для замены цветка</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-plugins.html">Наименование товара</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-changelog.html">Перечень позиций на складе</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-changelog.html">Лог операций</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-changelog.html">Заявки назакупку</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="docs-changelog.html">Сверка по складу</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="deyly-leftovers.html">Наличие товара на складе по дням</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="inventory.html">Инвенторизация склада</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#forecast" data-toggle="collapse" class="sidebar-link">
+	  						<i class="align-middle" data-feather="book-open"></i> <span class="align-middle">Закупки</span>
+						</a>
+						<ul id="forecast" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="forecast.html">Прогноз</a></li>
+							<li class="sidebar-item active"><a class="sidebar-link" href="requests.html">Заявки</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="invoices.html">Накладные</a></li>
+						</ul>
+					</li>
+					</li>
+					<li class="sidebar-item">
+						<a href="#ui" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="grid"></i> <span class="align-middle">Пользователи</span>
+						</a>
+						<ul id="ui" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-alerts.html">Администраторы</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-buttons.html">Исполнители</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-cards.html">Партнеры</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-general.html">Поставщики</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-grid.html">График работы</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="ui-modals.html">Черный список</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#charts" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="pie-chart"></i> <span class="align-middle">SEO</span>
+	  						<span class="sidebar-badge badge badge-primary">New</span>
+						</a>
+						<ul id="charts" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-chartjs.html">SEO статьи</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-apexcharts.html">Настройки страниц</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-apexcharts.html">Страницы</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-apexcharts.html">Отзывы</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-apexcharts.html">Обзоры</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="charts-apexcharts.html">Фотогалерея</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#forms" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="check-square"></i> <span class="align-middle">Настройка</span>
+						</a>
+						<ul id="forms" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="warehouse-list.html">Управление складами</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-basic-elements.html">Basic Elements</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-advanced-elements.html">Advanced Elements</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-input-groups.html">Input Groups</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-editors.html">Editors</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-validation.html">Validation</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="forms-wizard.html">Wizard</a></li>
+						</ul>
+					</li>
+					<li class="sidebar-item">
+						<a href="#tables" data-toggle="collapse" class="sidebar-link collapsed">
+	  						<i class="align-middle" data-feather="list"></i> <span class="align-middle">Статистика</span>
+						</a>
+						<ul id="tables" class="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
+							<li class="sidebar-item"><a class="sidebar-link" href="deyly-sum.html">Daily Summary Report</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="telephone_operator.html">Статистика по телефонистам</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="write-off.html">Отчет по списаниям</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="promo-statistics.html">Статистика промокодов</a></li>
+							<li class="sidebar-item"><a class="sidebar-link" href="florist-statistics.html">Статистика флористов</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+<!--Header-->
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light bg-white">
+				<a class="sidebar-toggle d-flex mr-2">
+          			<i class="hamburger align-self-center"></i>
+        		</a>
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item dropdown">
+							
+							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-toggle="dropdown">
+                				<img src="img\avatars\avatar.jpg" class="avatar img-fluid rounded-circle mr-1" alt="Chris Wood"> <span class="text-dark">Chris Wood</span>
+              				</a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a class="dropdown-item" href="#">Sign out</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+<!--Main form-->			
+			<main class="content">
+				<div class="container-fluid p-0">
+					<h1 class="h3 mb-3">Заявка на перемещение</h1>
+					<div class="row">
+						<div class="col-12">
+							<div class="card">
+<!-- Modal body add_product-->
+								<div class="modal-body">
+									<div  id="zayavka1">
+									<h3 class="text-center">#123456795 Заявка на перемещение Киев -> Днепр </h3>
+										<div class="form-group row justify-content-end">
+											<label class="col-form-label">Склад отправитель</label>
+											<div class="col-sm-2">
+												<select class="form-control" disabled>
+													<option selected="" value="0">Киев</option>
+										  		</select>
+											</div>
+										</div>
+										<div class="form-group row justify-content-end">
+											<label class="col-form-label">Склад получатель</label>
+											<div class="col-sm-2">
+												<select class="form-control" disabled>
+													<option selected="" value="0">Киев</option>
+										  		</select>
+											</div>
+										</div>
+										<div class="form-group row justify-content-end">
+											<label class="col-form-label">Дата отгрузки</label>
+											<div class="col-sm-2">
+												<input class="form-control" type="text" name="datesingle">
+											</div>
+										</div>
+										<table class="table-bordered" align="center" id="kiev1" onkeyup = "summa()">
+											<thead>
+												<tr>
+													<th style="width: 10%;">ID</th>
+													<th style="width: 200px;">Артикул</th>
+													<th style="width: 10%;">Кол-во</th>
+													<th style="width: 10%;">Цена ед.</th>
+													<th style="width: 10%;">Цена общ.</th>
+													<th style="width: 5%;"></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>1234</td>
+													<td>Роза белая 60</td>
+													<td><input id="artk1" required class="form-control" type="number" value="35"></td>
+													<td><input id="art1k" required class="form-control" type="number" value="35"></td>
+													<td>875 грн.</td>
+													<td style="text-align: center;"><button class="btn btn-danger" onclick="deleteRow(this)"><i class="fas fa-times"></i></button></td>
+												</tr>
+												<tr>
+													<td>2345</td>
+													<td>Ромашка</td>
+													<td><input id="artk2" required class="form-control" type="number" value="48"></td>
+													<td><input id="art2k" required class="form-control" type="number" value="35"></td>
+													<td>875 грн.</td>
+													<td style="text-align: center;"><button class="btn btn-danger" onclick="deleteRow(this)"><i class="fas fa-times"></i></button></td>
+												</tr>
+												<tr>
+													<td>3456</td>
+													<td>Тюльпан белый</td>
+													<td><input id="artk3" required class="form-control" type="number" value="100"></td>
+													<td><input id="art3k" required class="form-control" type="number" value="35"></td>
+													<td>875 грн.</td>
+													<td style="text-align: center;"><button class="btn btn-danger" onclick="deleteRow(this)"><i class="fas fa-times"></i></button></i></td>
+												</tr>
+												<tr>
+													<td>4567</td>
+													<td>Тюльпан желтый</td>
+													<td><input id="artk4" required class="form-control" type="number" value="50"></td>
+													<td><input id="art4k" required class="form-control" type="number" value="35"></td>
+													<td>875 грн.</td>
+													<td style="text-align: center;"><button class="btn btn-danger" onclick="deleteRow(this)"><i class="fas fa-times"></i></button></i></td>
+												</tr>
+												<tr>
+													<td>
+														<select class="form-control selectpicker" id="part" data-live-search="true" required onchange="addproduct()">
+															<option value="Select Part">Добавить товар</option>
+															<option value="21" name="Роза белая 60 см">21 Роза белая 60 см</option>
+															<option value="22" name="Роза белая 80 см">22 Роза белая 80 см</option>
+															<option value="23" name="Роза белая 90 см">23 Роза белая 90 см</option>
+															<option value="24" name="Роза кремовая 60 см">24 Роза кремовая 60 см</option>
+															<option value="25" name="Роза кремовая 70 см">25 Роза кремовая 70 см</option>
+															<option value="26" name="Роза кремовая 80 см">26 Роза кремовая 80 см</option>
+														</select>
+													</td>
+													<td style = "text-align: end"><b>Цветка всего:</b></td>
+													<td></td>
+													<td style = "text-align: end"><b>ИТОГО:</b></td>
+													<td></td>
+													<td></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="form-group row justify-content-end" style="margin-top: 30px;">
+										<a href="requests.html">
+											<button class="btn btn-success" type="button"  aria-expanded="false" style="margin: 10px;">
+												Сохранить заявку
+											</button>
+										</a>
+										<button class="btn btn-secondary" type="button" name="orderbtn" aria-expanded="false" style="margin: 10px;">
+											Сохранить и создать приходную накладную
+										</button>
+										<a href="requests.html">
+											<button class="btn btn-warning" type="button"  aria-expanded="false" style="margin: 10px;">
+												Удалить заявку
+											</button>
+										</a>
+										<a href="requests.html">
+											<button class="btn btn-danger" type="button"  aria-expanded="false" style="margin: 10px;">
+												Закрыть
+											</button>
+										</a>
+									</div>
+								</div>
+							</div>		
+						</div>
+					</div>
+				</div>
+			</main>
+
+<!--footer-->			
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="row text-muted">
+						<div class="col-6 text-left">
+							
+						</div>
+						<div class="col-6 text-right">
+							<p class="mb-0">
+								&copy; 2021 - <a href="index.html" class="text-muted">Flowers.ua</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js\app.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+	
+
+
+	<script>
+		function summa() {
+			var tablet = document.getElementById("kiev1")
+			var rowlength = tablet.rows.length - 1
+			var allsumm = 0
+			var prodsumm = 0
+			for(var q = 1; q < rowlength; q++){
+				var sum1 = parseInt(Number(document.getElementById("kiev1").rows[q].cells[2].children[0].value)) * parseInt(Number(document.getElementById("kiev1").rows[q].cells[3].children[0].value)) 
+				document.getElementById("kiev1").rows[q].cells[4].innerText = sum1 + ' грн.'
+				allsumm += sum1
+				prodsumm += parseInt(Number(document.getElementById("kiev1").rows[q].cells[2].children[0].value))
+			}
+			document.getElementById("kiev1").rows[rowlength].cells[4].innerText = allsumm + ' грн.'
+			document.getElementById("kiev1").rows[rowlength].cells[2].innerText = prodsumm + ' шт.'
+		}
+		window.addEventListener("DOMContentLoaded", summa);
+	</script>
+	
+	<script>
+		$(function() {
+		// Select2
+			$(".select2").each(function() {
+				$(this).wrap("<div class=\"position-relative\"></div>").select2({
+					placeholder: "Select value",
+					dropdownParent: $(this).parent()
+				});
+			})
+			// Daterangepicker
+			$("input[name=\"daterange\"]").daterangepicker({
+				opens: "left"
+			});
+			$("input[name=\"datetimes\"]").daterangepicker({
+				timePicker: true,
+				opens: "left",
+				startDate: moment().startOf("hour"),
+				endDate: moment().startOf("hour").add(32, "hour"),
+				locale: {
+					format: "M/DD hh:mm A"
+				}
+			});
+			$("input[name=\"datesingle\"]").daterangepicker({
+				singleDatePicker: true,
+				showDropdowns: true
+			});
+			// Datetimepicker
+			$('#datetimepicker-minimum').datetimepicker();
+			$('#datetimepicker-view-mode').datetimepicker({
+				viewMode: 'years'
+			});
+			$('#datetimepicker-time').datetimepicker({
+				format: 'LT'
+			});
+			$('#datetimepicker-date').datetimepicker({
+				format: 'L'
+			});
+			var start = moment().subtract(29, "days");
+			var end = moment();
+			function cb(start, end) {
+				$("#reportrange span").html(start.format("MMMM D, YYYY") + " - " + end.format("MMMM D, YYYY"));
+			}
+			$("#reportrange").daterangepicker({
+				startDate: start,
+				endDate: end,
+				ranges: {
+					"Today": [moment(), moment()],
+					"Yesterday": [moment().subtract(1, "days"), moment().subtract(1, "days")],
+					"Last 7 Days": [moment().subtract(6, "days"), moment()],
+					"Last 30 Days": [moment().subtract(29, "days"), moment()],
+					"This Month": [moment().startOf("month"), moment().endOf("month")],
+					"Last Month": [moment().subtract(1, "month").startOf("month"), moment().subtract(1, "month").endOf("month")]
+				}
+			}, cb);
+			cb(start, end);
+		});
+	</script>
+
+	<script>
+		$(function() {
+			$("#datetimepicker-dashboard").datetimepicker({
+				inline: true,
+				sideBySide: false,
+				format: "L"
+			});
+		});
+	</script>
+	
+	<script>
+		function deleteRow(r) {
+   			var i = r.parentNode.parentNode.rowIndex;
+    		document.getElementById("kiev1").deleteRow(i);
+			summa()
+		}
+	</script>
+
+	<script>
+		$(function() {
+  			$('.selectpicker').selectpicker();
+		});
+	</script>
+
+<script type="text/javascript">
+	function addRow(id){
+		var tbody = document.getElementById(id).getElementsByTagName("TBODY")[0];
+		var row = document.createElement("TR");
+		var td1 = document.createElement("TD")
+		var rowlength = document.getElementById(id).rows.length - 1
+		var endrow = document.getElementById(id).rows[rowlength]
+		var idopt = document.getElementById('part').options.selectedIndex
+		var idval = document.getElementById('part').options[idopt].value
+		td1.appendChild(document.createTextNode(idval))
+		var td2 = document.createElement("TD")
+		var prodname = document.getElementById('part').options[idopt].getAttribute("name")
+		var td3 = document.createElement("TD")
+		var inp3 = document.createElement("input")
+		inp3.type = "number"
+		inp3.className = "form-control"
+		inp3.setAttribute('required', '')
+		inp3.value = 0
+		td3.appendChild (inp3)
+		var td4 = document.createElement("TD")
+		var inp4 = document.createElement("input")
+		inp4.type = "number"
+		inp4.className = "form-control"
+		inp4.setAttribute('required', '')
+		inp4.value = 0
+		td4.appendChild (inp4)
+		var td5 = document.createElement("TD")
+		var td6 = document.createElement("TD")
+		td6.style = "text-align: center;"
+		var btn6 = document.createElement("button")
+		btn6.className = "btn btn-danger"
+		btn6.setAttribute("onclick", "deleteRow(this);" );
+		var i = document.createElement("i")
+		i.className = "fas fa-times"
+		btn6.appendChild(i)
+		td6.appendChild(btn6)
+		td2.appendChild (document.createTextNode(prodname))
+		
+		row.appendChild(td1);
+		row.appendChild(td2);
+		row.appendChild(td3);
+		row.appendChild(td4);
+		row.appendChild(td5);
+		row.appendChild(td6);
+		endrow.parentNode.insertBefore(row, endrow)
+		document.getElementById('part').selectedIndex = 0
+		summa()
+	  }
+	</script>
+
+	<script>
+		function addproduct(){
+			addRow('kiev1')
+		}
+		 
+	</script>
+	
+</body>
+
+</html>
