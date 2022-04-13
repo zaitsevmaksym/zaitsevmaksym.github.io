@@ -772,9 +772,9 @@
 		function raznica(){
 			var i=1
 			for (;i<=8;i++){
-				var ost = document.getElementById('ost'+i).innerText
-				var res = document.getElementById('res'+i).innerText
-				var art = document.getElementById('art1k'+i).value
+				var ost = +document.getElementById('ost'+i).innerText
+				var res = +document.getElementById('res'+i).innerText
+				var art = +document.getElementById('art1k'+i).value
 				var sum = art - (ost + res)
 				document.getElementById('sum'+i).innerText = sum
 			}
