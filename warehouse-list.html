@@ -293,9 +293,9 @@
 											<tr>
 												<th scope="col" style="width:3%;">ID</th>
 												<th scope="col" style="width: 10%;">Склад</th>
-												<th scope="col" style="width: 7%; text-align: center;">Offline Склад</th>
-												<th scope="col" style="width: 15%; text-align: center;">Разрешенные пользователи</th>
-												<th scope="col" style="width:3%;">Actions</th>
+												<th scope="col" style="width: 7%; text-align: center;">Тип Склада</th>
+												<th scope="col" style="width: 15%; text-align: center;"><!--Разрешенные пользователи--></th>
+												<th scope="col" style="width:3%;">Настройки</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -613,8 +613,11 @@
 												<label class="col-4" id="le">Offline склад:</label>
 												<input class="form-check-input" id="check" type="checkbox" value="" style="margin-left: 20px;" onchange="visiclient()">
 												<div class="form-group row" id="client" style="visibility: hidden;">
-													<label class="col-form-label col-4 text-sm-right">Клиент по умолчанию:</label>
-													<div class="col-6">
+													<label class="col-form-label col-4 text-sm-right">id клиента (clientId):</label>
+													<div>
+														<input type="numeric" class="form-control">
+													</div>
+													<!-- <div class="col-6">
 														<select class="form-control" id="sel">
 															<option selected="" value="0">Выберите пользователя</option>
 															<option value="Пользователь Каменское">Пользователь Каменское</option>
@@ -622,7 +625,7 @@
 															<option value="Пользователь Одесса 2">Пользователь Одесса 2</option>
 															<option value="Пользователь Павлоград">Пользователь Павлоград</option>
 														</select>
-													</div>
+													</div> -->
 												</div>
 											</div>
 
